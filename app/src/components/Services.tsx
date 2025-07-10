@@ -67,21 +67,21 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-16 bg-white">
+    <section id="services" className="py-8 sm:py-12 md:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2 uppercase tracking-tight">SERVIÇOS</h2>
-          <p className="text-base md:text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="text-center mb-8 sm:mb-10">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-2 uppercase tracking-tight">SERVIÇOS</h2>
+          <p className="text-sm sm:text-base md:text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-x-16 lg:gap-y-10">
           {services.map((service, idx) => (
-            <div key={idx} className="flex items-start space-x-5">
+            <div key={idx} className="flex items-start space-x-3 sm:space-x-5">
               <div className="flex-shrink-0 mt-1">{service.icon}</div>
               <div className="max-w-md">
-                <h3 className="text-sm font-bold text-gray-800 uppercase mb-1 tracking-wide">{service.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
+                <h3 className="text-xs sm:text-sm font-bold text-gray-800 uppercase mb-1 tracking-wide">{service.title}</h3>
+                <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{service.description}</p>
               </div>
             </div>
           ))}

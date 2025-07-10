@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CuboApp - Transform Your Business with Analytics",
-  description: "Comprehensive analytics and insights platform to help businesses make data-driven decisions and accelerate growth. Start your free trial today.",
-  keywords: "analytics, business intelligence, data visualization, dashboard, insights, reporting",
-  authors: [{ name: "CuboApp Team" }],
+  title: "Cubo",
+  description: "Cubo coworking space",
+  keywords: "",
+  authors: [{ name: "Theo Goulart" }],
   openGraph: {
-    title: "CuboApp - Transform Your Business with Analytics",
-    description: "Comprehensive analytics and insights platform to help businesses make data-driven decisions and accelerate growth.",
+    title: "Cubo",
+    description: "Cubo coworking space",
     type: "website",
   },
 };
